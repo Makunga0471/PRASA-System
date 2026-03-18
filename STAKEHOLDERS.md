@@ -1,0 +1,9 @@
+Stakeholder Analysis Table
+Stakeholder	Role	Key Concerns	Pain Points	Success Metrics
+Passengers	Individuals who use PRASA trains for daily transport.	Accurate train schedules, delay notifications, safety information.	Unpredictable delays, lack of real-time updates, poor communication during disruptions.	Real-time updates available; passenger complaints reduced by 30%.
+Train Operations Manager	Responsible for monitoring train schedules and operational efficiency.	Real-time monitoring of train movements and delays.	Delays detected too late, lack of centralized monitoring tools.	Ability to detect delays within 30 seconds and reduce operational disruptions.
+Control Room Operators	Staff who monitor trains and respond to incidents in real time.	Fast access to operational data and alerts.	Multiple systems causing slow response times.	Incident response time reduced by 40%.
+Maintenance Team	Responsible for maintaining trains and infrastructure.	Early detection of equipment failures and maintenance alerts.	Equipment failures detected only after service disruption.	Predictive maintenance alerts reduce breakdowns by 25%.
+IT Administrators	Responsible for system deployment, maintenance, and security.	System uptime, scalability, and secure data management.	Managing multiple systems and ensuring system reliability.	System uptime of 99.9% with minimal downtime.
+PRASA Management	Senior decision-makers responsible for strategic planning.	Operational reports, analytics, and performance monitoring.	Lack of reliable data for decision-making.	Data-driven reports improving operational efficiency by 20%.
+Security Personnel	Responsible for passenger and infrastructure safety.	Real-time monitoring of security incidents and alerts.	Delayed reporting of incidents and poor coordination.	Faster incident reporting and improved safety response time.
