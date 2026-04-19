@@ -111,7 +111,7 @@ This assignment focuses on modeling the **dynamic behavior of the system** using
 
 These diagrams show how system objects change over time.
 
-📂 **File:** `State_Transition_Diagrams_FINAL.md`
+📂 **File:** `State_Transition_Diagrams.md`
 
 Includes:
 
@@ -134,7 +134,7 @@ Each diagram is clearly linked to:
 
 These diagrams show system workflows and processes.
 
-📂 **File:** `Activity_Diagrams_FINAL.md`
+📂 **File:** `Activity_Diagrams.md`
 
 Includes:
 
