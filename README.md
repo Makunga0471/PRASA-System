@@ -1,6 +1,8 @@
-# Smart Digital Monitoring System for Operational Efficiency at PRASA
+# **Smart Digital Monitoring System for Operational Efficiency at PRASA**
 
-## Project Overview
+---
+
+## **📌 Project Overview**
 
 The Smart Digital Monitoring System is a proposed digital platform designed to improve the operational efficiency of railway services managed by the Passenger Rail Agency of South Africa (PRASA). The system provides real-time monitoring of train movement, railway infrastructure conditions, and operational performance across the railway network.
 
@@ -10,97 +12,210 @@ The platform enables proactive decision-making by detecting operational disrupti
 
 ---
 
-## Project Domain
+## **🌍 Project Domain**
 
-Transportation Systems and Railway Operations Management.
+**Transportation Systems and Railway Operations Management**
 
 ---
 
-## Objectives
+## **🎯 Objectives**
 
 The main objectives of the system are:
 
-* Improve operational visibility across the railway network  
-* Monitor train movement in real time  
-* Detect infrastructure faults and operational disruptions  
-* Provide alerts and notifications to railway administrators  
-* Support data-driven decision making  
-* Improve passenger service reliability  
+* Improve operational visibility across the railway network
+* Monitor train movement in real time
+* Detect infrastructure faults and operational disruptions
+* Provide alerts and notifications to railway administrators
+* Support data-driven decision making
+* Improve passenger service reliability
 
 ---
 
-## Key Features
+## **⚙️ Key Features**
 
-* Real-time train tracking  
-* Railway infrastructure monitoring  
-* Operational performance dashboard  
-* Automated incident detection  
-* Maintenance alerts  
-* Historical data analysis  
+* Real-time train tracking
+* Railway infrastructure monitoring
+* Operational performance dashboard
+* Automated incident detection
+* Maintenance alerts
+* Historical data analysis
 
 ---
 
-## System Users
+## **👥 System Users**
 
 The system supports the following users:
 
-* Railway Operations Administrators  
-* Control Room Operators  
-* Infrastructure Maintenance Teams  
-* System Administrators  
+* Railway Operations Administrators
+* Control Room Operators
+* Infrastructure Maintenance Teams
+* System Administrators
 
 ---
 
-## Project Documents
+## **📚 Project Documents**
 
-* [System Specification](SPECIFICATION.md)  
-* [System Architecture](ARCHITECTURE.md)  
-* Agile User Stories  
-* System Requirements  
-* Test Cases Documentation  
+### **📄 Assignment 4: System Requirements**
+
+Contains functional requirements (**FR1–FR11**) defining system capabilities.
 
 ---
 
-## Proposed Technologies
+### **📄 Assignment 5: Use Case Modeling**
 
-* Web-based dashboard  
-* Backend API services  
-* Railway sensor integration  
-* Data storage and analytics  
-* Cloud or on-premise infrastructure  
+Includes:
 
----
-
-## Kanban Board Implementation (Assignment 7)
-
-A GitHub Project Kanban board was created to manage the development workflow of the PRASA Smart Digital Monitoring System using Agile principles.
-
-### Customization of the Kanban Board
-
-The Kanban board was customized to better align with the system development lifecycle and improve workflow visibility.
-
-Additional columns were introduced beyond the default template:
-
-* **Testing** – This column ensures that completed development tasks are properly verified before being marked as done. It supports quality assurance and reduces the risk of errors in the system.
-
-* **Blocked** – This column is used to track tasks that cannot proceed due to dependencies, system issues, or missing requirements. It helps identify bottlenecks quickly and allows the team to take corrective action.
-
-Tasks were created as GitHub Issues based on user stories and system requirements from previous assignments. These issues were linked to the Kanban board and labeled appropriately (e.g., *feature*, *bug*, *enhancement*) to improve organization.
-
-Each task was assigned to a team member to ensure accountability and clear responsibility.
-
-The board structure includes the following workflow stages:
-
-* To Do  
-* In Progress  
-* Testing  
-* Blocked  
-* Done  
-
-This structure supports continuous delivery, task tracking, and Agile project management practices.
+* Use Case Diagram
+* Use Case Specifications
+* Actor interactions
 
 ---
 
-## Conclusion
+### **📄 Assignment 6: Agile Planning**
 
-This repository contains the full system specification, design, and Agile project management implementation for the Smart Digital Monitoring System. It demonstrates the application of software engineering principles, system analysis, and Kanban-based workflow management in a real-world railway system context.
+Includes:
+
+* User Stories (**US-001 to US-012**)
+* Product Backlog
+* Sprint Planning
+* Traceability mapping
+
+---
+
+### **📄 Assignment 7: Kanban Workflow**
+
+A GitHub Project Kanban board was created to manage development using Agile principles.
+
+#### **🔧 Customization of the Kanban Board**
+
+Additional workflow columns:
+
+* **Testing** – Ensures tasks are verified before completion
+* **Blocked** – Identifies tasks that cannot proceed
+
+Workflow stages:
+
+* To Do
+* In Progress
+* Testing
+* Blocked
+* Done
+
+---
+
+## **🆕 📊 Assignment 8: System Modeling**
+
+This assignment focuses on modeling the **dynamic behavior of the system** using:
+
+### **🔷 1. State Transition Diagrams**
+
+These diagrams show how system objects change over time.
+
+📂 **File:** `State_Transition_Diagrams_FINAL.md`
+
+Includes:
+
+* Train lifecycle (Idle → In Service → Maintenance)
+* Alert processing states
+* Maintenance request lifecycle
+* User account states
+* Notification flow
+* Sensor data processing
+* System logging
+
+Each diagram is clearly linked to:
+
+* **Functional Requirements (e.g., FR1: Real-time train monitoring)**
+* **User Stories (e.g., US-001: View real-time alerts)**
+
+---
+
+### **🔷 2. Activity Diagrams**
+
+These diagrams show system workflows and processes.
+
+📂 **File:** `Activity_Diagrams_FINAL.md`
+
+Includes:
+
+* View real-time alerts workflow
+* Train monitoring process
+* Intrusion detection workflow
+* Maintenance process
+* User authentication
+* Report generation
+* Notification process
+* Incident reporting
+
+Each workflow includes:
+
+* Start/End points
+* Decision logic
+* System actions
+* Mapping to requirements and user stories
+
+---
+
+### **🔷 3. Reflection**
+
+📂 **File:** `PRASA_reflection.md`
+
+Covers:
+
+* Challenges in system modeling
+* Alignment with Agile and requirements
+* Differences between state and activity diagrams
+* Lessons learned across all assignments
+
+---
+
+## **🔗 Traceability and Integration**
+
+All diagrams and workflows are aligned with:
+
+### **Functional Requirements (Assignment 4)**
+
+Examples:
+
+* **FR1:** Monitor train locations in real time
+* **FR5:** Generate operational alerts
+* **FR8:** Predictive maintenance alerts
+* **FR9:** User management
+
+---
+
+### **User Stories (Assignment 6)**
+
+Examples:
+
+* **US-001:** View real-time alerts
+* **US-004:** Maintenance alerts
+* **US-006:** Manage users
+* **US-009:** Receive notifications
+
+This ensures **full traceability** between requirements, design, and implementation.
+
+---
+
+## **🛠️ Proposed Technologies**
+
+* Web-based dashboard
+* Backend API services
+* Railway sensor integration
+* Data storage and analytics
+* Cloud or on-premise infrastructure
+
+---
+
+## **📌 Conclusion**
+
+This repository contains the full system specification, design, and Agile project management implementation for the Smart Digital Monitoring System.
+
+It demonstrates:
+
+* Application of software engineering principles
+* System analysis and design techniques
+* UML modeling (state and activity diagrams)
+* Agile project management using Kanban
+
+The project provides a comprehensive approach to improving railway operational efficiency through digital transformation.
