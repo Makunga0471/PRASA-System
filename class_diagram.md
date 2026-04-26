@@ -1,6 +1,6 @@
 # Class Diagram (Mermaid.js)
 
-## Mermaid Diagram (Best viewed on GitHub)
+## Mermaid Diagram 
 
 ``` mermaid
 classDiagram
