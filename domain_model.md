@@ -1,4 +1,4 @@
-# Domain Model (Enhanced – Distinction Level)
+# Domain Model
 
 ## Domain Model Table
 
