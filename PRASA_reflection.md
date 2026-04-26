@@ -1,4 +1,4 @@
-# Reflection (Assignments 4–9 Integrated)
+# Reflection
 
 The process of translating system requirements into use case diagrams, detailed use case specifications, activity workflows, object state models, and finally domain modeling and class diagram development for the PRASA Smart Digital Monitoring System proved to be both intellectually demanding and highly informative. Across these assignments, a key challenge was maintaining consistency and alignment between functional requirements, user stories, use cases, and system models. Ensuring that each diagram and model accurately reflected the intended system behavior required careful interpretation and continuous cross-referencing with previously defined requirements.
 
