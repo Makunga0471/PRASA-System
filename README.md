@@ -186,6 +186,15 @@ Examples:
 * **FR9:** User management
 
 ---
+## **🆕 📊 Assignment 9:  Domain Modeling and Class Diagram Development**
+## Domain Model
+
+Includes Train, Track, Sensor, Alert, Operator, and Maintenance
+entities.
+
+## Class Diagram
+
+See Mermaid diagram in project files.
 
 ### **User Stories (Assignment 6)**
 
