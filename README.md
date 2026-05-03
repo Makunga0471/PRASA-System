@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PRASA Smart Passenger System
 
 ## Overview
