@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# Domain Model
+=======
 # Domain Model (Enhanced – Distinction Level)
+>>>>>>> 8cfd57e75642603a85c57726a420044696d55afc
 
 ## Domain Model Table
 

@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 # PRASA Smart Passenger System
 
 ## Overview
@@ -278,29 +277,3 @@ It demonstrates:
 
 The project provides a comprehensive approach to improving railway operational efficiency through digital transformation.
 >>>>>>> 3bb1b49dea49a1d0bbf2664b35e5e811aeec573e
-=======
-# PRASA Smart Digital Monitoring System
-
-## Assignment 11 — Persistence Repository Layer
-
-### Features
-
-- Generic Repository Interface
-- CRUD Operations
-- In-Memory Storage
-- Factory Pattern
-- Future Database Repository Stub
-- Unit Testing
-
-## Run Project
-
-```bash
-python main.py
-```
-
-## Run Tests
-
-```bash
-python -m unittest discover tests
-```
->>>>>>> 8cfd57e75642603a85c57726a420044696d55afc
