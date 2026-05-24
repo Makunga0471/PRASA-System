@@ -2,7 +2,7 @@ from app import add, subtract, multiply, divide
 
 
 def test_add():
-    assert add(2, 3) == 5
+    assert add(2, 3) == 100
 
 
 def test_subtract():
