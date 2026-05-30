@@ -1,0 +1,11 @@
+GOOD-FIRST-ISSUE:
+1. Improve UI
+2. Add comments
+3. Add tests
+4. Improve README
+5. Improve error handling
+
+FEATURE-REQUEST:
+1. Add database
+2. Add authentication
+3. Export PDF
