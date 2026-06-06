@@ -1,0 +1,159 @@
+ASSIGNMENT 13 SUBMISSION GUIDE
+
+==========================================
+STEP 1: DOWNLOAD PROJECT
+==========================================
+Download and extract the ZIP file.
+
+==========================================
+STEP 2: CREATE GITHUB REPOSITORY
+==========================================
+1. Open GitHub
+2. Click New Repository
+3. Repository Name:
+   PRASA_System
+4. Click Create Repository
+
+==========================================
+STEP 3: OPEN TERMINAL IN PROJECT FOLDER
+==========================================
+
+Run:
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git branch -M main
+
+git remote add origin YOUR_GITHUB_REPOSITORY_LINK
+
+git push -u origin main
+
+==========================================
+STEP 4: CHECK GITHUB ACTIONS
+==========================================
+
+1. Open GitHub Repository
+2. Click Actions Tab
+3. Wait for workflow to finish
+
+TAKE SCREENSHOT:
+- Successful tests
+
+==========================================
+STEP 5: ENABLE BRANCH PROTECTION
+==========================================
+
+1. Repository Settings
+2. Branches
+3. Add Rule
+
+Configure:
+
+- Require pull request reviews
+- Required approvals = 1
+- Require status checks
+- Select Python CI/CD Pipeline
+- Disable direct pushes
+
+SAVE RULE
+
+TAKE SCREENSHOT:
+- Branch protection rules
+
+==========================================
+STEP 6: CREATE FAILED TEST DEMO
+==========================================
+
+Create new branch:
+
+git checkout -b feature-broken-test
+
+Open tests/test_app.py
+
+Change:
+
+assert add(2, 3) == 5
+
+TO:
+
+assert add(2, 3) == 10
+
+Save file.
+
+Push:
+
+git add .
+
+git commit -m "Broken test"
+
+git push origin feature-broken-test
+
+==========================================
+STEP 7: CREATE PULL REQUEST
+==========================================
+
+1. Open GitHub
+2. Click Compare & Pull Request
+3. Create PR
+
+Workflow fails.
+
+TAKE SCREENSHOT:
+- PR blocked
+- Tests failed
+
+==========================================
+STEP 8: FIX TEST
+==========================================
+
+Change back:
+
+assert add(2, 3) == 5
+
+Push again:
+
+git add .
+
+git commit -m "Fixed tests"
+
+git push
+
+==========================================
+STEP 9: MERGE PULL REQUEST
+==========================================
+
+Merge PR into main.
+
+==========================================
+STEP 10: ARTIFACT GENERATION
+==========================================
+
+Open:
+Actions → Latest Workflow
+
+Scroll to Artifacts section.
+
+TAKE SCREENSHOT:
+- PRASA-Python-App artifact
+
+==========================================
+FINAL FILES TO SUBMIT
+==========================================
+
+1. GitHub Repository Link
+
+2. Screenshots:
+   - Branch Protection Rules
+   - Successful GitHub Actions
+   - Artifact Generated
+   - PR Blocked by Failed Tests
+
+==========================================
+IMPORTANT
+==========================================
+
+Ensure repository is PUBLIC before submitting.
