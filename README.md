@@ -1,14 +1,16 @@
-# PRASA Python CI/CD Project
+# Pull Request Description
 
-## Technologies Used
+## Changes Made
 
-- Python
-- Pytest
-- GitHub Actions
+* Improved README documentation
+* Added installation instructions
+* Added project usage section
 
----
+## Purpose
 
-## Install Dependencies
+This improves project setup guidance and makes the repository easier to use.
 
-```bash
-pip install -r requirements.txt
+## Testing
+
+* Markdown formatting tested
+* README preview verified
