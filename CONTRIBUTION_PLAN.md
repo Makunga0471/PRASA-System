@@ -1,41 +1,83 @@
+
+
 # CONTRIBUTION PLAN
 
 ## Repository 1
-Project: Railway Booking System
-Language: Python Flask
 
-Contribution:
-- Fix login validation
-- Improve error handling
-- Add comments to code
+Project:
+The IT Code Academy
+
+Technology:
+Python FastAPI
+
+Selected Contribution:
+
+* Add student search functionality
+* Improve API usability
+
+Planned Feature:
+
+* Search students by name or email
+
+Reason:
+The system lacked an efficient way to locate specific students.
 
 ---
 
 ## Repository 2
-Project: Inventory Management System
-Language: Python Tkinter
 
-Contribution:
-- Improve GUI alignment
-- Add input validation
-- Improve README documentation
+Project:
+UniMatch University Application System
+
+Technology:
+Python
+
+Selected Contribution:
+
+* Application validation improvement
+
+Planned Feature:
+
+* Validate required documents before application submission
+
+Reason:
+Students could potentially submit incomplete applications.
 
 ---
 
 ## Repository 3
-Project: Student Registration System
-Language: Django
 
-Contribution:
-- Fix database migration issue
-- Improve authentication validation
-- Add exception handling
+Project:
+Manga Book Store System
+
+Technology:
+Python
+
+Selected Contribution:
+
+* Product validation improvement
+
+Planned Feature:
+
+* Prevent negative manga prices
+
+Reason:
+Negative pricing could result in incorrect inventory and sales records.
 
 ---
 
-## Strategy
-1. Start with documentation fixes
-2. Fix small Python bugs
-3. Add validation and exception handling
-4. Submit small clean PRs
-5. Respond quickly to feedback
+## Contribution Strategy
+
+1. Review repository structure and contribution guidelines.
+2. Select small, practical feature requests.
+3. Implement isolated improvements that do not affect unrelated functionality.
+4. Test all changes before submission.
+5. Submit focused Pull Requests with detailed descriptions.
+6. Respond promptly to repository owner feedback.
+
+## Expected Outcome
+
+* Improve software quality.
+* Contribute meaningful enhancements.
+* Gain practical collaborative development experience.
+* Successfully achieve merged Pull Requests.
