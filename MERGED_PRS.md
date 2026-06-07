@@ -1,18 +1,27 @@
 # MERGED PRS
 
 ## PR 1
-Project: Manga Book Store System
+Project: the it code academy
+
 PR Link:
-https://github.com/Vanessa-Ndomba/manga-book-store-system
-https://github.com/example/repository/pull/1
+https://github.com/keo-codes/the-it-code-academy/pull/55
 
-Changes:
-- Fixed login validation
-- Added exception handling
-- Improved error messages
+## Summary
 
-Status:
-Merged
+Added a search endpoint for students.
+
+## Changes
+
+- Added GET /api/students/search
+- Added search logic in StudentService
+
+## Testing
+
+- Tested with multiple names
+- API returns matching students
+
+
+Status: Merged
 
 ---
 
