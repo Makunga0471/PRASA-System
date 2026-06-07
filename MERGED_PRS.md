@@ -6,7 +6,7 @@ Project: the it code academy
 PR Link:
 https://github.com/keo-codes/the-it-code-academy/pull/55
 
-## Summary
+##   Pull Request Title
 
 Added a search endpoint for students.
 
@@ -26,18 +26,32 @@ Status: Merged
 ---
 
 ## PR 2
-Project: Gym Management System
-https://github.com/Nasiphivundle/Gym-Management-System
+Project: UniMatch University Application System
+
 PR Link: https://github.com/example/repository/pull/2
 
-Changes:
-- Improved README
-- Added installation guide
-- Fixed GUI alignment
+##   Pull Request Title
 
-Status:
-Merged
+Feature: Validate required documents before application submission
 
+## Summary
+
+Added validation to ensure all required programme documents
+have been uploaded before an application can be submitted.
+
+## Changes
+
+- Added missing_documents() method
+- Updated can_submit() validation
+- Improved submission error handling
+
+## Benefits
+
+Prevents incomplete applications from being submitted and
+improves application data quality.s
+
+
+Status: Merged
 ---
 
 ## PR 3
