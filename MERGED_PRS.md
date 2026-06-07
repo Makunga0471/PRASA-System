@@ -1,4 +1,4 @@
-# MERGED PRS
+<img width="1323" height="633" alt="image" src="https://github.com/user-attachments/assets/3eeb42c0-6093-4c6e-b39d-a7c38a264c43" /># MERGED PRS
 
 ## PR 1
 Project: the it code academy
@@ -30,7 +30,7 @@ Status: Merged
 ## PR 2
 Project: UniMatch University Application System
 
-PR Link: https://github.com/example/repository/pull/2
+PR Link:https://github.com/Mabotse-Mosima/UniMatch-University-Application-System/pull/79
 
 ##   Pull Request Title
 
