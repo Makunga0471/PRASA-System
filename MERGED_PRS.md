@@ -1,9 +1,9 @@
 # MERGED PRS
 
 ## PR 1
-Project: Railway Booking System
-
+Project: Manga Book Store System
 PR Link:
+https://github.com/Vanessa-Ndomba/manga-book-store-system
 https://github.com/example/repository/pull/1
 
 Changes:
@@ -17,10 +17,9 @@ Merged
 ---
 
 ## PR 2
-Project: Inventory Management System
-
-PR Link:
-https://github.com/example/repository/pull/2
+Project: Gym Management System
+https://github.com/Nasiphivundle/Gym-Management-System
+PR Link: https://github.com/example/repository/pull/2
 
 Changes:
 - Improved README
@@ -33,7 +32,7 @@ Merged
 ---
 
 ## PR 3
-Project: Student Registration System
+Project:  Manga Book Store System
 
 PR Link:
 https://github.com/example/repository/pull/3

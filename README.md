@@ -1,27 +1,16 @@
-<<<<<<< HEAD
-# Assignment 15 Complete Package
+# Pull Request Description
 
-This package contains:
-- Contribution plan
-- Merged PR documentation
-- Reflection
-- GitHub workflow guide
-- Screenshots folder placeholder
+## Changes Made
 
-Replace placeholder PR links and screenshots with your actual work before submission.
-=======
-# PRASA Python CI/CD Project
+* Improved README documentation
+* Added installation instructions
+* Added project usage section
 
-## Technologies Used
+## Purpose
 
-- Python
-- Pytest
-- GitHub Actions
+This improves project setup guidance and makes the repository easier to use.
 
----
+## Testing
 
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
->>>>>>> ac5abf18ac02f8a2991a99cbf85ae65e37b3a727
+* Markdown formatting tested
+* README preview verified
