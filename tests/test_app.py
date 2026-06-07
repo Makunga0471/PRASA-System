@@ -1,3 +1,9 @@
+# Unit tests for Calculator functions
+# Covers:
+# - Basic arithmetic operations
+# - Edge cases (negative numbers, floats, zero)
+# - Error handling (invalid inputs and division by zero)
+
 import pytest
 from app import (
     add, subtract, multiply, divide,
@@ -26,7 +32,7 @@ def test_divide():
 
 
 # ---------------------------------------------------------------------------
-# Additional happy-path tests
+# Additional tests for valid inputs (edge cases and numeric variations)
 # ---------------------------------------------------------------------------
 
 def test_add_floats():
@@ -54,17 +60,17 @@ def test_multiply_negative_numbers():
 
 
 # ---------------------------------------------------------------------------
-# Error-handling tests — DivisionByZeroError
+# Tests for division by zero handling and custom exception behavior
 # ---------------------------------------------------------------------------
 
 def test_divide_by_zero_raises():
-    """divide(x, 0) must raise DivisionByZeroError, not return a string."""
+    """Ensures division by zero raises DivisionByZeroError instead of returning a value."""
     with pytest.raises(DivisionByZeroError):
         divide(10, 0)
 
 
 def test_divide_by_zero_is_calculator_error():
-    """DivisionByZeroError must be a subclass of CalculatorError."""
+    """Checks that invalid input error message contains 'numeric' keyword."""
     with pytest.raises(CalculatorError):
         divide(1, 0)
 
@@ -75,7 +81,7 @@ def test_divide_by_zero_message():
 
 
 # ---------------------------------------------------------------------------
-# Error-handling tests — InvalidInputError
+# Tests for invalid input validation (type safety checks)
 # ---------------------------------------------------------------------------
 
 @pytest.mark.parametrize("fn", [add, subtract, multiply, divide])
@@ -114,10 +120,11 @@ def test_invalid_input_message_contains_type():
 
 
 # ---------------------------------------------------------------------------
-# Exception hierarchy
+# Tests verifying correct exception inheritance structure
 # ---------------------------------------------------------------------------
 
 def test_exception_hierarchy():
+    """Verifies correct inheritance of custom exceptions from base CalculatorError."""
     assert issubclass(DivisionByZeroError, CalculatorError)
     assert issubclass(InvalidInputError, CalculatorError)
     assert issubclass(CalculatorError, Exception)
