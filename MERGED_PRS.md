@@ -3,12 +3,14 @@
 ## PR 1
 Project: the it code academy
 
-PR Link:
-https://github.com/keo-codes/the-it-code-academy/pull/55
+PR Link: https://github.com/keo-codes/the-it-code-academy/pull/55
 
 ##   Pull Request Title
 
 Added a search endpoint for students.
+
+## Summary
+Allow viewing all courses for a student.
 
 ## Changes
 
