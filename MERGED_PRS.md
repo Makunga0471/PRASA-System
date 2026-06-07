@@ -1,4 +1,4 @@
-<img width="1323" height="633" alt="image" src="https://github.com/user-attachments/assets/3eeb42c0-6093-4c6e-b39d-a7c38a264c43" /># MERGED PRS
+# MERGED PRS
 
 ## PR 1
 Project: the it code academy
