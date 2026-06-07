@@ -1,21 +1,45 @@
+
+
 # REFLECTION
 
 ## Lessons Learned
-- Learned how to collaborate using GitHub
-- Improved understanding of pull requests
-- Learned how to review and improve other people's code
-- Improved Python debugging and validation skills
+
+During this assignment I gained practical experience contributing to software projects developed by other students. I learned how to analyze existing codebases, identify areas for improvement, and implement solutions that provide real business value.
+
+I also improved my understanding of:
+
+* GitHub workflows
+* Pull Requests
+* Branch management
+* Code reviews
+* Feature implementation
+* Validation and error handling
+* Collaborative software development
 
 ## Challenges Faced
-- Understanding different coding styles
-- Resolving merge conflicts
-- Following project contribution guidelines
 
-## Improvements
-- Better communication with repository owners
-- Writing cleaner commit messages
-- Creating focused pull requests
-- Improving documentation writing skills
+### Understanding Existing Code
+
+Each project used a different structure and coding style, which required time to understand before making changes.
+
+### Ensuring Compatibility
+
+It was important to implement features that solved a problem without breaking existing functionality.
+
+### Writing Effective Pull Requests
+
+Creating clear Pull Request descriptions and documenting changes properly was necessary to help repository owners review contributions efficiently.
+
+## Improvements Achieved
+
+* Improved API functionality in The IT Code Academy project.
+* Improved application validation in the UniMatch University Application System.
+* Improved data integrity in the Manga Book Store System.
+
+## Collaboration Experience
+
+Working with peer repositories provided valuable insight into real-world collaborative software development practices. It reinforced the importance of communication, clean code, testing, and documentation.
 
 ## Conclusion
-This assignment improved my collaborative software development skills and gave me practical experience contributing to open-source style projects.
+
+This assignment strengthened my technical and collaborative development skills. Contributing to multiple projects helped me gain practical experience with GitHub, feature development, validation techniques, and professional software engineering workflows.
